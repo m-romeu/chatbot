@@ -1,0 +1,75 @@
+
+html,body{
+	display:grid;
+	height:100%;
+	place-items:center;
+	font-family: 'Nunito';
+}
+.wraper{
+	width:400px;
+	border: 1px solid;
+	border-radius:5px;
+	background:#ccc;
+	
+}.wrapper .title{
+	background: #E95F66;
+	font-size: 20px;
+	text-align:center;
+	border-radius: 5px;
+	padding:5px;
+	
+}
+.wrapper .form{
+	padding: 20px 15px;
+	border: 1px solid;
+	min-height: 400px;
+	max-width: 400px;	
+	overflow-y: auto;
+	
+}
+.wrapper .form .inbox{
+	width: 100%;
+	display: flex;
+	align-items: baseline;
+	max-height:400px;
+	
+}
+.wrapper .form .inbox .message-content{
+	max-width: 73%;	
+	margin-left: 10px;
+	padding: 5px;
+}
+.form .inbox .message-content p{
+	color:#000;
+	background: #fff;
+	padding: 5px;	
+}
+.form .inbox .message-content p.bot{
+	color:#fff;
+	background: #E95F66;
+	padding: 5px;
+}		
+
+.wrapper .typing-text{
+	display:flex;
+	height:60px;
+	width: 100%;
+}
+.wrapper .typing-text .input-data{
+	height:40px;
+	width:400px;
+}	
+.wrapper .typing-text .input-data input{
+	width:100%;
+	height:100%;
+	padding: 5px;
+	border: 1px solid;
+	
+}
+.wrapper .typing-text .input-data button{	
+	border: 1px solid;
+	background: #E95F66;
+	padding: 2px 15px 2px 15px;	
+	font-weight: bold;	
+	margin-top:5px;
+}
